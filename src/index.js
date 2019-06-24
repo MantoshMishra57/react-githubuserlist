@@ -1,19 +1,13 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import GitHubUser from './GitHubUser';
-
+import Post from './post'
 class App extends Component {
-  constructor() {
-    super();
-    this.state = {
-      name: 'React'
-    };
-  }
-
   render() {
     return (
       <div>
-        <GitHubUser />
+       
+        <Post />
       </div>
     );
   }
